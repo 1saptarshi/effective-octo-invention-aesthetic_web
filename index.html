@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software News Feed</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-blue-500 text-white">
+
+    <!-- Upper Navbar -->
+    <nav class="fixed top-0 left-0 right-0 bg-blue-700 py-4">
+        <div class="container mx-auto flex justify-around">
+            <a href="#" class="hover:text-gray-300">Service</a>
+            <a href="#" class="hover:text-gray-300">Work</a>
+            <a href="#" class="hover:text-gray-300">M-Place</a>
+            <a href="#" class="hover:text-gray-300">Blog</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center py-20">
+        <h1 class="text-5xl">Software News Feed</h1>
+        <p class="mt-4 text-xl">Stay updated with the latest software news</p>
+    </header>
+
+    <!-- News Feed Section -->
+    <section class="container mx-auto py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Example News Article -->
+            <article class="bg-blue-600 p-6 rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">Latest Software Update Released</h2>
+                <p class="mb-4">The latest update includes several new features and improvements.</p>
+                <a href="#" class="text-blue-300 hover:text-blue-400">Read more</a>
+            </article>
+            <!-- Example News Article -->
+            <article class="bg-blue-600 p-6 rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">New AI Tool Launched</h2>
+                <p class="mb-4">A new AI tool has been launched to help developers write better code.</p>
+                <a href="#" class="text-blue-300 hover:text-blue-400">Read more</a>
+            </article>
+            <!-- Example News Article -->
+            <article class="bg-blue-600 p-6 rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">Security Patch Available</h2>
+                <p class="mb-4">A new security patch has been released to address vulnerabilities.</p>
+                <a href="#" class="text-blue-300 hover:text-blue-400">Read more</a>
+            </article>
+            <!-- Add more news articles as needed -->
+        </div>
+    </section>
+
+    <!-- Lower Navbar -->
+    <nav class="fixed bottom-0 left-0 right-0 bg-blue-700 py-4">
+        <div class="container mx-auto flex justify-around">
+            <a href="#" class="hover:text-gray-300">Home</a>
+            <a href="#" class="hover:text-gray-300">Feed</a>
+            <a href="#" class="hover:text-gray-300">Service</a>
+            <a href="#" class="hover:text-gray-300">Work</a>
+            <a href="#" class="hover:text-gray-300">Marketplace</a>
+            <a href="#" class="hover:text-gray-300">Blog</a>
+            <a href="#" class="hover:text-gray-300">Social</a>
+            <a href="#" class="hover:text-gray-300">About Us</a>
+        </div>
+    </nav>
+
+</body>
+</html>
